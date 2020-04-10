@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'thin'
-gem 'sinatra', '2.0.8.1'
-gem 'rerun', '0.13.0'
+gem 'sinatra',              '2.0.8.1'
+gem 'rerun',                '0.13.0'
+gem 'albertoms_palindrome', '0.3.1'  
 
 group :test do
   gem 'minitest',           '5.11.3'

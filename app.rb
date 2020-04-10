@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'albertoms_palindrome'
 
 get '/' do
   @title = 'Home'
@@ -13,4 +14,9 @@ end
 get '/palindrome' do
   @title = 'Palindrome Detector'
   erb :palindrome
+end
+
+post '/detect' do
+  @phrase = params[:phrase]
+  erb :result
 end
