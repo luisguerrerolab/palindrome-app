@@ -1,15 +1,15 @@
 source 'https://rubygems.org'
 
-gem 'thin'
+gem 'thin',                 '1.7.2'
 gem 'sinatra',              '2.0.8.1'
 gem 'rerun',                '0.13.0'
-gem 'albertoms_palindrome', '0.3.1'  
+gem 'albertoms_palindrome', '0.3.2'
 
 group :test do
-  gem 'minitest',           '5.11.3'
-  gem 'minitest-reporters', '1.2.0'
-  gem 'rack-test',          '1.0.0'
-  gem 'rake',               '12.3.2'
+  gem 'minitest',           '5.14.0'
+  gem 'minitest-reporters', '1.4.2'
+  gem 'rack-test',          '1.1.0'
+  gem 'rake',               '13.0.1'
   gem 'nokogiri',            '1.10.9'
 end
 
