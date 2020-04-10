@@ -1,5 +1,13 @@
 require 'sinatra'
 
 get '/' do
-  "It's amazing and delightful how easy is to publish a web application to heroku <3"
+  erb :index
+end
+
+get '/about' do
+  erb :about
+end
+
+get '/palindrome' do
+  erb :palindrome
 end
