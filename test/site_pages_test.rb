@@ -17,6 +17,7 @@ class PalindromeAppTest < Minitest::Test
     assert doc(last_response).at_css('h1')
     title_content = doc(last_response).at_css('title').content
     assert_equal "Home | #{@base_title}", title_content
+    assert doc(last_response).at_css('nav')
   end
 
   def test_about
