@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'thin',                 '1.7.2'
-gem 'sinatra',              '2.0.8.1'
+gem 'sinatra',              '2.2.0'
 gem 'rerun',                '0.13.0'
 gem 'albertoms_palindrome', '0.3.2'
 
